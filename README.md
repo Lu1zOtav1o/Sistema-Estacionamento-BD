@@ -1,7 +1,3 @@
-Entendido! Aqui está a versão ajustada, levando em consideração que o sistema começa sem nenhuma vaga e o usuário precisa digitá-las inicialmente:
-
----
-
 # Sistema de Estacionamento
 
 Este é um projeto de um sistema de controle de estacionamento, que utiliza um banco de dados MySQL para gerenciar as vagas de veículos. O objetivo é permitir ao usuário cadastrar as vagas inicialmente, registrar entradas e saídas de veículos, além de consultar as vagas disponíveis para diferentes tipos de veículos.
