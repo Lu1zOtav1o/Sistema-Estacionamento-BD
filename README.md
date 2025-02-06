@@ -31,9 +31,3 @@ Este projeto foi desenvolvido pela equipe de **ITI 31**, do **IFBA Ilhéus**:
 - **Joaquim**
 - **Jonathan**
 - **Luiz Otávio**
-
-Juntos, criamos uma solução prática e eficiente para gerenciar um sistema de estacionamento.
-
----
-
-Agora, o README está refletindo corretamente que o sistema começa sem vagas e que o usuário precisa cadastrar as vagas inicialmente. Se precisar de mais algum ajuste, é só avisar!
