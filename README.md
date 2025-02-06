@@ -1,18 +1,39 @@
-## Getting Started
+Entendido! Aqui está a versão ajustada, levando em consideração que o sistema começa sem nenhuma vaga e o usuário precisa digitá-las inicialmente:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+# Sistema de Estacionamento
 
-The workspace contains two folders by default, where:
+Este é um projeto de um sistema de controle de estacionamento, que utiliza um banco de dados MySQL para gerenciar as vagas de veículos. O objetivo é permitir ao usuário cadastrar as vagas inicialmente, registrar entradas e saídas de veículos, além de consultar as vagas disponíveis para diferentes tipos de veículos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Cadastro de vagas**: O sistema começa sem vagas. O usuário precisa cadastrar as vagas manualmente no início, fornecendo o número e o tipo de veículo permitido (carro, moto, caminhão).
+- **Controle de entradas e saídas**: Registra a entrada de veículos nas vagas e libera as vagas quando os veículos saem.
+- **Consulta de vagas livres**: O usuário pode consultar as vagas disponíveis, filtrando por tipo de veículo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como Funciona
 
-## Dependency Management
+1. **Cadastro Inicial de Vagas**: Ao iniciar o sistema, o usuário será solicitado a digitar o número e o tipo das vagas.
+2. **Entrada de Veículos**: Quando um veículo chega, o sistema registra a placa e o tipo de veículo na vaga correspondente.
+3. **Saída de Veículos**: Quando o veículo sai, o status da vaga é atualizado para "livre".
+4. **Consultas**: O usuário pode consultar as vagas livres filtrando por tipo de veículo.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Equipe
+
+Este projeto foi desenvolvido pela equipe de **ITI 31**, do **IFBA Ilhéus**:
+
+- **Alicio**
+- **Breno**
+- **Caio Victor**
+- **Eder**
+- **Haniel**
+- **Joaquim**
+- **Jonathan**
+- **Luiz Otávio**
+
+Juntos, criamos uma solução prática e eficiente para gerenciar um sistema de estacionamento.
+
+---
+
+Agora, o README está refletindo corretamente que o sistema começa sem vagas e que o usuário precisa cadastrar as vagas inicialmente. Se precisar de mais algum ajuste, é só avisar!
